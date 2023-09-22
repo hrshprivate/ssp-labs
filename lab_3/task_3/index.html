@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Task_3(3)</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lists</h1>
+      <div class="lists">
+        <div class="list">
+          <h2>Lastname</h2>
+          <ul id="lastNameList" class="sortable-list"></ul>
+        </div>
+        <div class="list">
+          <h2>Firstname</h2>
+          <ul id="firstNameList" class="sortable-list"></ul>
+        </div>
+        <div class="list">
+          <h2>Patronymic</h2>
+          <ul id="middleNameList" class="sortable-list"></ul>
+        </div>
+        <div class="list">
+          <h2>Choosed Lastnames</h2>
+          <ul id="selectedNamesList" class="sortable-list"></ul>
+        </div>
+      </div>
+      <button id="openDialogButton" class="addBtn">Add info</button>
+    </div>
+    <div id="editDialog" class="dialog">
+      <input
+        type="text"
+        id="editField"
+        placeholder="Lastname Firstname Patronymic"
+      />
+      <button id="saveButton">Save</button>
+      <button id="cancelButton">Cancel</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
